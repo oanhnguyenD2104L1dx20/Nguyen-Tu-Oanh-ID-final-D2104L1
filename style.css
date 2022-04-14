@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Lobster&display=swap');
+.header{
+    padding: 32px 0;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+  background-color: white;
+}
+.header li {
+    margin: 0 20px;
+    
+}
+.header li a{
+    font-size:22px;
+    line-height: 28px   ;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color:#0167af;
+    
+}
+
+.logo {
+    width: 100px;
+    height: 64px;
+   
+}
+.logo img {
+    height: 100%;
+    display: inline;
+}
+.banner{
+    height: 100vh;
+    background-image: url("img/banner2.png");
+background-size: cover;
+}
+.slogan{
+    padding: 200px 0 40px 150px;
+    width: 1100px;
+  
+}
+
+.login{
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(30px);
+    border-radius: 40px;
+    padding: 120px;
+    width: 700px;
+    margin-left: 150px;
+    
+}
+.banner1{
+position: absolute;
+top:50%;
+transform: translate(0,-50%)
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 24px;
+    outline: none;
+    opacity: 0.5;
+}
+input:hover {
+    opacity: 1.0;
+  }
+form label{
+    font-size: 14px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(191, 189, 189);
+    opacity: 1; /* Firefox */
+  } 
+  .pass{
+      margin-top: 32px;
+  }
+  .icon-pass{
+      position: relative;
+  }
+  .icon-pass span{
+      position: absolute;
+      right: 30px;
+      top:50%; 
+      transform: translate(0,-50%);
+  }
+  .icon-pass input{
+      width: 100%;
+  }
+  .contact{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+  
+  }
+  .sign-in{
+    padding: 8px;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    border: 0;
+    background: #0167af;
+    color: white;
+    border-radius: 30px;
+    width: 30%;  
+    
+  }
+  .registration{
+    padding: 8px;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    border: 0;
+    background: #0167af;
+    color: white;
+    border-radius: 30px;
+    width: 30%;   
+  }
+  .products {
+    text-align: center;
+  }
+  .products .card {
+    overflow: hidden;
+    margin: 0 ;
+    box-shadow: -2px 2px 30px -10px #0167af ;
+    border-radius: 15px;
+    padding: 0 0 20px 0;
+  }
+  .products .card img {
+    width: 100%;
+}
+
+.products .card .card-name {
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.products .card .card-content {
+     color: #022B3A;
+}
+
+.products .card .seemore {
+    padding: 8px;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    border: 0;
+    background: #0167af;
+    color: white;
+    border-radius: 5px;
+}
+.promotion {
+       display: flex;
+    flex-direction: row; 
+    
+}
+
+.promotion, .promotion-description, .promotion-image {
+ 
+    max-height: 500px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    background-color: #fff2f3;
+    
+}
+
+    .promotion-image img {
+        width: 100%;
+    }
+
+.promotion-description {
+    padding: 25px;
+    
+}
+
+    .promotion-description p {
+        font-size: 18px;
+    }
+    a.ex2:hover, a.ex2:active {
+        font-size: 150%;
+    
+      }
+      
+    .gallery {
+        text-align: center;
+      }
+    
+        .gallery .image {
+          
+            margin: 0 0.1%;
+            display: inline-block;
+            overflow: hidden;
+        }
+    
+            .gallery .image img {
+                width: 100%;
+                border-radius: 20px;
+            }
+   
+            .footer {
+    background-color: #95bcd7;
+    padding: 20px 120px;
+    text-align: center;
+}
+
+    .footer .footer-column {
+       
+        
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+    }
+
+        .footer .footer-column h3 {
+            font-size: 20px;
+            color: #0167af;
+        }
+
+        .footer .footer-column ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .footer .footer-column li {
+                font-size: 18px;
+                color: #022B3A;
+        }
+
+            .footer .footer-column li a {
+                    text-decoration: none;
+                    color: #022B3A;
+            }
+
+        .footer .footer-column .social li{
+            display: inline-block;
+        }
+
+        .footer .footer-column .social img{
+            display: inline-block;
+            width: 40px;
+            margin: 0 3px;
+          
+        }
